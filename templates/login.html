@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form method="POST">
+	{% for field in form %}
+		<p>{{field.label}}    {{field}}</p>
+	{%endfor %}
+	<button>Войти</button>
+</form>
+
+
+
+
+</body>
+</html>
